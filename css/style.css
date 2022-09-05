@@ -14,3 +14,9 @@ body::before {
 html {
   scroll-padding-top: 60px; /* height of sticky header */
 }
+
+@media (min-width: 577px) {
+  .position-sm-absolute {
+    position: absolute;
+  }
+}
